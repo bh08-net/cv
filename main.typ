@@ -28,7 +28,7 @@
           {
             fa-icon("house", solid: true)
             h(5pt)
-            "Washington, England"
+            "Glasgow, Scotland"
           },
           none,
         )
@@ -76,21 +76,32 @@
       {
         entry(
           theme: emphasis,
-          "A-Level",
+          "A-Levels",
           "Computer Science",
           right: "B",
           none,
         )
         entry(
-          theme: emphasis,
-          "A-Level",
+          none,
           "Biology",
           right: "D",
           none,
         )
+        entry(
+          none,
+          "Extended Project",
+          right: "A",
+          "Investigated the Risks of using End of Life IT Products"
+        )
+        entry(
+          none,
+          "Core Maths",
+          right: "A",
+          none,
+        )
 
         entry(
-          [GCSEs],
+          "GCSEs",
           "English Language",
           right: "7",
           none,
@@ -170,7 +181,7 @@
 
  #section(
    "Overview",
-   par(justify: true)[
+   par(justify: false)[
      I'm a first year Cyber Security & Networks student at Glasgow Caledonian University
    ]
  )
@@ -178,7 +189,7 @@
  #section(
    "Skills & Technologies",
    [
-     Skills...
+     -
    ]
  )
 
@@ -186,13 +197,16 @@
   "Previous Experience",
   {
     entry(
-      "March 2023",
+      "Summer 2025",
+      "CyberFirst Horizons",
+      "Took part in the 2025 cohort of CyberFirst Horizons, engaging with numerous industry specialists in relation to Cyber Security over a 4 week course."
+
+    )
+    entry(
+      "Spring 2023",
       "FlightRadar24 SDRs",
-      right: url("https://boxersteavee.dev/projects/sdr/", "boxersteavee.dev/projects/sdr"),
-      [
-        - SDR Woohooo
-        - Finish later
-      ]
+      right: url("https://bh08.net/projects/sdr/", "bh08.net/projects/sdr"),
+      "Built 3 ADS-B SDR Recievers to track aircraft and provide data to Flightradar24"
     )
     [
       Also participated in *stuff*
