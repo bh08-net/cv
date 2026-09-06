@@ -16,7 +16,7 @@
   theme: default,
   title: "Ben Harris",
   subtitle: [
-    If something doesn't do what it should, I'll like finding how, and why... and then how to fix it.
+    If something doesn't do what it should, I like finding how and why... and then how to fix it.
   ],
   aside: {
     section(
@@ -46,7 +46,7 @@
           {
             fa-icon("envelope", solid: true)
             h(4pt)
-            link("mailto:ben@itstheharrisfamily.com", "ben@itstheharrisfamily.com")
+            link("mailto:ben@bh08.net", "ben@bh08.net")
           },
           none,
         )
@@ -64,7 +64,7 @@
           {
             fa-icon("github", solid: true)
             h(6pt)
-            link("https://github.com/Boxersteavee/", "Boxersteavee")
+            link("https://github.com/bh08-net/", "bh08-net")
           },
           none,
         )
@@ -78,9 +78,17 @@
           theme: emphasis,
           "A-Level",
           "Computer Science",
-          right: "Current",
+          right: "B",
           none,
         )
+        entry(
+          theme: emphasis,
+          "A-Level",
+          "Biology",
+          right: "D",
+          none,
+        )
+
         entry(
           [GCSEs],
           "English Language",
@@ -163,7 +171,7 @@
  #section(
    "Overview",
    par(justify: true)[
-     I'm a Year 13 A-Level Student at North East Futures UTC...
+     I'm a first year Cyber Security & Networks student at Glasgow Caledonian University
    ]
  )
 
